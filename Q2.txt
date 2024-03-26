@@ -1,0 +1,12 @@
+Write a blog about objects and its internal representation in Javascript
+
+-It’s most important data-type and forms the building blocks for modern JavaScript. 
+-These objects are quite different from JavaScript’s primitive data-types such as Number, String, Boolean, null, undefined and symbol.
+-They are more complex and each object may contain any combination of these primitive data-types as well as reference data-types.
+-Variables that are assigned a reference value are given a reference or a pointer to that value.
+
+For example 
+var mybike = new Object();
+mybike.make = 'Royal Enfield';
+mybike.model = 'classic500';
+mybike.year = 2015;

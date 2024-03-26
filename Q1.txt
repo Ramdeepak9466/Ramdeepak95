@@ -1,0 +1,11 @@
+Difference between HTTP1.1 vs HTTP2
+
+HTTP1.1 
+- The first version of HTTP was called HTTP/1.1
+- It loads resources one after the other, so if one resource cannot be loaded, it blocks all the other resources behind it.
+- It's a top-level application protocol that exchanges information between a client computer and a local or remote web server.
+
+HTTP2
+-HTTP/2 solves several problems that the creators of HTTP/1.1 did not anticipate. 
+-It's much faster and more efficient than HTTP/1.1.
+-It offers a feature called weighted prioritization. This allows developers to decide which page resources will load first, every time.
